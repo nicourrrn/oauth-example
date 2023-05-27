@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "oauth-learn"
+version = "0.1.0"
+description = ""
+authors = ["Vadym <s57111702@gmail.com>"]
+readme = "README.md"
+packages = [{include = "oauth_learn"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+requests-oauthlib = "^1.3.1"
+fastapi = "^0.95.2"
+uvicorn = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
